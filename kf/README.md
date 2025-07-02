@@ -26,3 +26,16 @@ Replication of the examples presented in chapter two. Run build.sh to compile th
 generators, then run each program to produce it's data. The resulting data can be
 visualized using gnuplot and the given scripts.
 
+## recursive_least_squares_filtering.h
+
+Contains implimentations of the zeroth, first, and second order recursive least
+squares filters. These are pretty nice and basically do the job of the least
+squares filter in real time.
+
+## /ch3
+
+Replication of the examples presented in chapter three. Run build.sh to compile
+the data generators. Each of these will generate data used by the plotting
+scripts. The fitting works, but the error margins on the error plots are either
+wrong or the scaling of the filters are wrong somewhere. Either way, it is not
+a big enough deal for me to care about right now :/. The filters work!

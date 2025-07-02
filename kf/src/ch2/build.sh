@@ -10,4 +10,5 @@ echo "gcc -o fit_one.e fit_one.c"
 gcc -o fit_one.e fit_one.c ../numerical_basics.c ../method_of_least_squares.c -lm
 echo "gcc -o fit_two.e fit_two.c"
 gcc -o fit_two.e fit_two.c ../numerical_basics.c ../method_of_least_squares.c -lm
-echo "mkdir -p dat"
+echo "mkdir dat"
+mkdir -p dat
