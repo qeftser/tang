@@ -39,3 +39,16 @@ the data generators. Each of these will generate data used by the plotting
 scripts. The fitting works, but the error margins on the error plots are either
 wrong or the scaling of the filters are wrong somewhere. Either way, it is not
 a big enough deal for me to care about right now :/. The filters work!
+
+## polynomial_kalman_filters.h
+
+Contains implimentations of the zeroth, first, and second order polynomial
+kalman filters discussed in chapter 4. These are only partially compelete,
+as they lack the deterministic input term G in the state propagation. These
+filters are sufficient to replicate the results presented in chapter 4.
+
+## /ch4
+
+Replication of the examples in chapter four. Formula is the same as
+before. Run build.sh and the generated commands to produce the data,
+then use the plotting scripts to observe the resulting behaviors.

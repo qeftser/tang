@@ -13,13 +13,6 @@ mat _alloc_mat(uint32_t m, uint32_t n, size_t size) {
 
 mat matadd(mat l, mat r, mat res) {
 
-   for (int i = 0; i < l->rows*l->cols; ++i)
-      printf("%f, ",l->vals[i]);
-   printf("\n");
-   for (int i = 0; i < r->rows*r->cols; ++i)
-      printf("%f, ",r->vals[i]);
-   printf("\n");
-
    assert(l->rows == r->rows && l->cols == r->cols && "matrix dimensions must match");
    assert(l->rows == res->rows && l->cols == res->cols && "matrix dimensions must match");
 
@@ -119,7 +112,7 @@ mat matsca(mat a, mat as, double scalar) {
    for (uint32_t m = 0; m < a->rows; ++m) {
       for (uint32_t n = 0; n < a->cols; ++n) {
 
-         a->vals[n + m * a->cols] *= scalar;
+         as->vals[n + m * a->cols] = a->vals[n + m * a->cols] * scalar;
 
       }
    }
@@ -209,7 +202,6 @@ mat matinv_safe(mat _a, mat ainv, int * flag) {
       }
       break;
       
-      /*
       case 3:
       {
 
@@ -239,7 +231,6 @@ mat matinv_safe(mat _a, mat ainv, int * flag) {
 
       }
       break;
-      */
 
       default:
       {
