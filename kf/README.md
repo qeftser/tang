@@ -52,3 +52,17 @@ filters are sufficient to replicate the results presented in chapter 4.
 Replication of the examples in chapter four. Formula is the same as
 before. Run build.sh and the generated commands to produce the data,
 then use the plotting scripts to observe the resulting behaviors.
+
+## kalman_filters_in_a_nonpolynomial_world.h
+
+Contains an impliementation of a first order kalman filter that has
+the G matrix and accepts a static u term. 
+
+## /ch5 
+
+Replication of the examples in chapter five. I will note that
+the code for the suspension tracking is not written correctly,
+and as a result the filter behaves rather poorly. This is
+likely do to an error copying the matrix math over, but
+I feel I understand the text and would perfer not to spend
+several hours trying to debug the code. Say what you will!
