@@ -66,3 +66,12 @@ and as a result the filter behaves rather poorly. This is
 likely do to an error copying the matrix math over, but
 I feel I understand the text and would perfer not to spend
 several hours trying to debug the code. Say what you will!
+
+## /ch7
+
+Replication of the example presented in chapter seven. There is
+no associated header file because the extended kalman filter is
+programmed directly into the simulation. This is done because
+several states needed to be recomputed at each interval, and I
+would have used it once anyway. Plus it is good to have more
+experience playing with the Riccati and update equations, right?
