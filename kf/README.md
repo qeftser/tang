@@ -75,3 +75,12 @@ programmed directly into the simulation. This is done because
 several states needed to be recomputed at each interval, and I
 would have used it once anyway. Plus it is good to have more
 experience playing with the Riccati and update equations, right?
+
+## /ch8
+
+Attempted implimentation of the extended kalman filter covered in
+chapter eight. I was able to get decent tracking with 1/beta as
+a state and a process noise of 1, but still not as good as what 
+was presented in the text. I went over the equations several times
+but maybe missed something? Linear filter was not implimented because
+I already spent a while on the nonlinear one :/

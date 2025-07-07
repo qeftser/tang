@@ -20,7 +20,7 @@ typedef struct MAT0X0 {
    uint32_t rows;
    uint32_t cols;
    double vals[];
-} matbase;
+} matbase, MB;
 
 typedef matbase * mat;
 
