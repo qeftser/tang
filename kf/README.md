@@ -84,3 +84,9 @@ a state and a process noise of 1, but still not as good as what
 was presented in the text. I went over the equations several times
 but maybe missed something? Linear filter was not implimented because
 I already spent a while on the nonlinear one :/
+
+## /ch9
+
+Implimentation fo the extended kalman fiter and duel linear kalman
+filters from chapter 9. These things are tedious and annoying to
+debug. Anyway, they are there for your viewing pleasure.
