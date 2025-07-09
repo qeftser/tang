@@ -87,6 +87,13 @@ I already spent a while on the nonlinear one :/
 
 ## /ch9
 
-Implimentation fo the extended kalman fiter and duel linear kalman
+Implimentation of the extended kalman fiter and duel linear kalman
 filters from chapter 9. These things are tedious and annoying to
 debug. Anyway, they are there for your viewing pleasure.
+
+## /ch11
+
+Implimentation of the extended kalman filter for tracking an object
+with a variable velocity with two satellites. This is the second-to-last
+example presented in chapter 11. This chapter was pretty interesting, and
+kind of cool because it is a practical application - although highly simplified.
