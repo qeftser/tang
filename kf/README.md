@@ -97,3 +97,18 @@ Implimentation of the extended kalman filter for tracking an object
 with a variable velocity with two satellites. This is the second-to-last
 example presented in chapter 11. This chapter was pretty interesting, and
 kind of cool because it is a practical application - although highly simplified.
+
+## /ch15
+
+I will address what you are probably thinking - "dang he really just skipped
+three chapters... that is kind of lazy..." - by saying that if you actually
+read the text you would understand why I did what I did. The three chapters
+between this one and eleven are quite good have have some interesting material,
+but they were not interesting enough for me to want to reproduce the examples.
+They we be of use as a reference going forward.   
+   
+This directory contains an implimentation of the final fading memory filter
+presented in chapter 15. The data can be graphed after the function is run
+using the provided gnuplot scripts.
+
+
